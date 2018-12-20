@@ -1,0 +1,12 @@
+body {
+    background-image: url("../images/background.jpg");
+}
+
+.main {
+    margin: 70px;
+    background-color: white;
+}
+
+#question-text {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
