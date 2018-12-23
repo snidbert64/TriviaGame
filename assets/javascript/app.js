@@ -1,4 +1,4 @@
-var timeLimit = 20;
+var timeLimit = 10;
 var qNumber = 0;
 var timer = timeLimit;
 var timerInterval;
