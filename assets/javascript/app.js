@@ -21,6 +21,12 @@ var questions = [
         flavor: "Named for his late Uncle Ben."
     },
     {
+        qText: "In what year did Spider-Man first appear?",
+        answers: [ "1958", "1960", "1962", "1969"],
+        correct: "1962",
+        flavor: "Specifically, in the August issue of 'Amazing Fantasy'."
+    },
+    {
         qText: "How many Spider-Man movies have been released? (As of December 2018)",
         answers: [ "3", "6", "7", "11"],
         correct: "11",
