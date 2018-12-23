@@ -1,3 +1,13 @@
+@font-face {
+    font-family: "Homoarakhn";
+    src: url("../fonts/HOMOARAK.TTF");
+}
+
+* {
+    text-align: center;
+}
+
+
 body {
     background-image: url("../images/background250px.jpg");
 }
@@ -5,7 +15,8 @@ body {
 .main {
     margin: 70px;
     padding: 100px;
-    background-color: white;
+    background-color: lightgray;
+    color: red;
 }
 
 #question-text {

@@ -52,7 +52,7 @@ function question(number) {
     timer = timeLimit;
     $("#result-screen").hide();
     $("#question-screen").show();
-    $("#possible-answers").html("<button class='guess'>" + questions[number].answers.join("</button><button class='guess'>") + "</button>");
+    $("#possible-answers").html("<button class='guess'>" + questions[number].answers.join("</button> <br> <button class='guess'>") + "</button>");
     $("#timer").text(timer);
     $("#question-text").text(questions[number].qText);
     timerInterval = setInterval(function() {
