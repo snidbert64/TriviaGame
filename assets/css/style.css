@@ -3,6 +3,11 @@
     src: url("../fonts/HOMOARAK.TTF");
 }
 
+@keyframes animatedBackground {
+	from { background-position: 0 0; }
+	to { background-position: 250px 0; }
+}
+
 * {
     text-align: center;
 }
@@ -10,13 +15,24 @@
 
 body {
     background-image: url("../images/background250px.jpg");
+	background-position: 0px 0px;
+	background-repeat: repeat;
+
+	animation: animatedBackground 5s linear infinite;
 }
 
 .main {
     margin: 70px;
     padding: 100px;
     background-color: lightgray;
+}
+
+.red {
     color: red;
+}
+
+.blue {
+    color: blue;
 }
 
 #question-text {

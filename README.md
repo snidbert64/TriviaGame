@@ -1,4 +1,8 @@
 # TriviaGame
 A Spider-Man-themed trivia game made for the KU Web Development Boot Camp.
 
-I made this in two afternoons because I am horrible at time management.
+## Features
+    Ten-second timer for questions
+    Four questions in total, all multiple choice
+    Results screen at the end with the option to restart the quiz
+    Animated background
